@@ -1,0 +1,37 @@
+h1{
+    color: #ff0026;
+    font-size: 30px;
+    text-shadow:8px 8px 8px blue ;
+}
+button{
+    background-color: #ff0026;
+    color: aliceblue;
+    width: 150px;
+    padding: 15px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+h2{
+    color: rgba(0, 0, 255, 0.95);
+}
+img{
+    width: 100px;
+    height: 120px;
+}
+table,th,td{
+    border: 2px solid black;
+    border-collapse:collapse ;
+}
+table{
+    width: 50%;
+    height: 60%;
+    background-color: #ff0026;
+}
+td{
+  padding-left :40px ;
+}
+tr:hover{
+    background-color: black;
+    color: white;
+}

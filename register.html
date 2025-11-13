@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register page - BuyBloom </title>
+<link rel="stylesheet" href="css/register.css">
+  </head>
+<body>
+    
+<form action="">
+
+    <legend> Create an Account</legend>
+    <br>
+    <label for="firstname">Firstname </label>
+    <input type="text" placeholder="Enter your first name" id="firtsname" required>
+    <br><br>
+    <label for="surname">Surname</label>
+    <input type="text" placeholder="Enter your surname" id="surname" required>
+    <br><br>
+      <label for="email">Email </label>
+    <input type="email" placeholder="Enter your email" id="email" required>
+    <br><br>
+      <label for="pwd">Password </label>
+    <input type="password" placeholder="Type your password" id="pwd" required>
+    <br><br>
+      <label for="pwd">Confirm your password</label>
+    <input type="password" placeholder="confirm your password" id="pwd" required>
+    <br><br>
+    <label for="yob">Birthday</label>
+    <input type="date" id="yob">
+    <br><br>
+    <label for="dt">Date and Time</label>
+ <input type="datetime-local" id="dt">
+ <br><br>
+ <label for="phone">Phone Number</label>
+  <input type="tel" id="phone" placeholder="Enter your phone number">
+  <br><br>
+  <label for="file">Upload CV/Resume</label>
+  <input type="file" id="file" required>
+  <br><br>
+  <label for="yos">Year of Study</label>
+  <!--dropdown-->
+<select name="Year of study" id="yos">
+<option value="" disabled>---select---</option>
+    <option value="first">First Year</option>
+    <option value="second">Second Year</option>
+    <option value="third">Third Year</option>
+    <option value="fourth">Fourth Year</option>
+    <option value="fifth">Fifth Year</option>
+    <option value="sixth">Sixth Year</option>
+    </select>
+    <br><br>
+    <p>Choose your favourite football team</p>
+    <!--radio bitton-->
+    <input type="radio" id="arsenal" name="team">
+    <label for="arsenal">Arsenal</label>
+    <br>
+     <input type="radio" id="chelsea" name="team">
+    <label for="chelsea">Chelsea</label>
+    <br>
+     <input type="radio" id="liverpool" name="team">
+    <label for="liverpol">Liverpool</label>
+    <br><br>
+    <p>Select programing languages you are good at </p>
+    <!--checkbox-->
+    <input type="checkbox" id="python" name="lang">
+    <label for="python">Python</label>
+    <br>
+      <input type="checkbox" id="java" name="lang">
+    <label for="java">Java</label>
+    <br>
+      <input type="checkbox" id="csharp" name="lang">
+    <label for="csharp">C#</label>
+    <br>
+    <input type="checkbox" id="javascript" name="lang">
+    <label for="javascript">JavaScript</label>
+    <br><br>
+
+    <label for="message">Describe yourself</label>
+    <br>
+    <textarea name="" id="message" cols="40" rows="20" ></textarea>
+    <br><br>
+    <button type="submit">Register now</button>
+
+
+  
+
+</form>
+
+
+
+</body>
+</html>
